@@ -10,6 +10,7 @@ I want a sensor, who is turned on/ true if one of my favorite shows comes on tv.
 First Solution:
 
 This solution is not the optimum, but with a rss feed, I get a few information.
+
 I use the feed from Tv Spielform: https://www.tvspielfilm.de/services/widgets/rss-feeds/rss-feeds-im-ueberblick,3538128,ApplicationArticle.html
 So I added this to my config:
 
