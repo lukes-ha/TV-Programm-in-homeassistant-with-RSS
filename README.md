@@ -12,6 +12,7 @@ First Solution:
 This solution is not the optimum, but with a rss feed, I get a few information.
 I use the feed from Tv Spielform: https://www.tvspielfilm.de/services/widgets/rss-feeds/rss-feeds-im-ueberblick,3538128,ApplicationArticle.html
 So I added this to my config:
+
 `  - platform: feedparser
     name: TVProgramm
     feed_url: "https://m.tvspielfilm.de/tv-programm/rss/heute2015.xml"
@@ -21,7 +22,9 @@ So I added this to my config:
     inclusions:
       - title
       - description`
-And with this infos, a sensor turns on, if the show is in the tv program:
+      
+And with this infos, a sensor turns on, if the show is in the tv program
+config:
 `template:
   - binary_sensor:
     - name: "Ninja Warrior"
