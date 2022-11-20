@@ -26,6 +26,7 @@ So I added this to my config:
       
 And with this infos, a sensor turns on, if the show is in the tv program
 config:
+
 `template:
   - binary_sensor:
     - name: "Ninja Warrior"
