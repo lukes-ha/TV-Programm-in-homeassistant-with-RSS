@@ -1,0 +1,5 @@
+template:
+  - binary_sensor:
+      - name: "Ninja Warrior"
+        unique_id: "Ninja.Warrior.on.TV"
+        state: "{{ 'Ninja Warrior' in  (state_attr ('sensor.tvprogramm','entries')) | map (attribute='title') | join ('|\n|') | replace ('|','') }}"
