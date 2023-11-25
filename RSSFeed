@@ -1,0 +1,9 @@
+  - platform: feedparser
+    name: TVProgramm
+    feed_url: "https://m.tvspielfilm.de/tv-programm/rss/heute2015.xml"
+    date_format: "%a, %d %b %Y %H:%M:%S %Z"
+    scan_interval:
+      hours: 1
+    inclusions:
+      - title
+      - description
